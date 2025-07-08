@@ -182,3 +182,32 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     margin-top: 50px;
 }
+
+.section-title{
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    
+    /* margin-bottom: 5px; */
+}
+.experience-subtitle{
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.experience-subtitle, .experience-description{
+    color: #757575;
+}
