@@ -84,14 +84,14 @@ nav ul li a{
     background-color: #fd6e0a;
     color: white;
     border-radius: 5px;
-    width: 150px;
+    width: 200px;
     height: 64px;
     font-size: 20px;
     font-weight: bold;
     border: none;
-
-
 }
+
+
 
 /* Banner styles */
 .banner{
@@ -210,4 +210,38 @@ main section{
 }
 .experience-subtitle, .experience-description{
     color: #757575;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    gap: 120px;
+    padding: 198px 230px;
+    margin-top: 20px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: 460px;
+    height: 64px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.column-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+footer a img{
+    padding-right: 24px;
+}
+
+.resume-button{
+
+    text-align: center;
+    margin-top: 50px;
 }
